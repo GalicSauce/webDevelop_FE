@@ -1,0 +1,8 @@
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: burlywood;
+}
+.box::before { /*가상요소는 인라인 요소로 생성돼서 크기지정 하려면 블럭으로 만들어줘야함*/
+  content: "Before ";
+}
