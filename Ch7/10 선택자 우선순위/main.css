@@ -1,0 +1,21 @@
+div {
+  font-size: 50px;
+}
+
+.hello {
+  color: cadetblue;
+}
+
+/*#hello {
+  color: bisque; /*점수가 더 높음, id 선택자는 자주 사용 안함
+}*/
+
+div.hello {/* 태그+클래스 일치선택자 10+1점*/
+  color: cornflowerblue;
+}
+
+.hello {
+  color: burlywood;
+}
+
+/* !important는 되도록 사용하지 말고 아주 중요한 부분에만*/
